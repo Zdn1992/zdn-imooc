@@ -109,3 +109,53 @@ body {
 .nav_mid_right {
     width: 300px;
 }
+
+.nav_mid_left li {
+    float: left;
+    list-style-type: none;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* 超链接四种状态
+link 初始状态
+visited 浏览过的状态 
+hover 鼠标划过
+active 鼠标点击*/
+.nav_mid_left a:link,.nav_mid_left a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav_mid_left a:hover,.nav_mid_left a:active{
+    text-decoration: none;
+    color: #ff0;
+    font-size: 16px;
+}
+
+.serch_text{
+    width: 190px;
+    height: 25px;
+    margin-top: 5px;
+    background: url(../images/search.jpg) no-repeat right center;
+    /* 等同 
+    background-image: url(../images/search.jpg);
+    background-repeat: no-repeat;
+    background-position: right center; */
+    background-color: #fff;
+    padding-right: 25px;
+    border: 1px solid #fff;
+
+}
+
+.ad {
+    height: 310px;
+    overflow: hidden;
+}
+
+.main {
+    height: 250px;
+    background-color: #fff;
+}
