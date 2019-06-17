@@ -26,14 +26,12 @@ body {
     line-height: 27px;
 }
 
-.top_content a:link,
-.top_content a:visited {
+.top_content a:link, .top_content a:visited {
     color: #8e8e8e;
     text-decoration: none;
 }
 
-.top_content a:hover,
-.top_content a:active {
+.top_content a:hover, .top_content a:active {
     color: #900;
     text-decoration: none;
 }
@@ -83,7 +81,6 @@ body {
 .nav_mid {
     width: 980px;
     background: url(../images/nav_bg.jpg) repeat-x;
-
 }
 
 .nav_right {
@@ -91,21 +88,19 @@ body {
     background: url(../images/nav_right.jpg) no-repeat;
 }
 
-.nav_left,
-.nav_mid,
-.nav_right {
+.nav_left, .nav_mid, .nav_right {
     float: left;
     height: 40px;
 }
 
-.nav_mid_left,
-.nav_mid_right {
+.nav_mid_left, .nav_mid_right {
     float: left;
 }
 
 .nav_mid_left {
     width: 680px;
 }
+
 .nav_mid_right {
     width: 300px;
 }
@@ -123,19 +118,20 @@ link 初始状态
 visited 浏览过的状态 
 hover 鼠标划过
 active 鼠标点击*/
-.nav_mid_left a:link,.nav_mid_left a:visited{
+
+.nav_mid_left a:link, .nav_mid_left a:visited {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
 }
 
-.nav_mid_left a:hover,.nav_mid_left a:active{
+.nav_mid_left a:hover, .nav_mid_left a:active {
     text-decoration: none;
     color: #ff0;
     font-size: 16px;
 }
 
-.serch_text{
+.serch_text {
     width: 190px;
     height: 25px;
     margin-top: 5px;
@@ -147,7 +143,6 @@ active 鼠标点击*/
     background-color: #fff;
     padding-right: 25px;
     border: 1px solid #fff;
-
 }
 
 .ad {
@@ -158,4 +153,28 @@ active 鼠标点击*/
 .main {
     height: 250px;
     background-color: #fff;
+    margin-top: 5px;
+}
+
+.news {
+    width: 340px;
+    border: 1px solid #e8e8e8;
+    background-color: pink;
+}
+
+.course {
+    width: 410px;
+    border: 1px solid #e8e8e8;
+    background-color: #900;
+    margin: 0 7px;
+}
+
+.sidebar {
+    width: 230px;
+    background-color: #ff0;
+}
+
+.news, .course, .sidebar {
+    height: 250px;
+    float: left;
 }
