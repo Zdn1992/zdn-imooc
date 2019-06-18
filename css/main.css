@@ -26,12 +26,14 @@ body {
     line-height: 27px;
 }
 
-.top_content a:link, .top_content a:visited {
+.top_content a:link,
+.top_content a:visited {
     color: #8e8e8e;
     text-decoration: none;
 }
 
-.top_content a:hover, .top_content a:active {
+.top_content a:hover,
+.top_content a:active {
     color: #900;
     text-decoration: none;
 }
@@ -88,12 +90,15 @@ body {
     background: url(../images/nav_right.jpg) no-repeat;
 }
 
-.nav_left, .nav_mid, .nav_right {
+.nav_left,
+.nav_mid,
+.nav_right {
     float: left;
     height: 40px;
 }
 
-.nav_mid_left, .nav_mid_right {
+.nav_mid_left,
+.nav_mid_right {
     float: left;
 }
 
@@ -119,13 +124,15 @@ visited 浏览过的状态
 hover 鼠标划过
 active 鼠标点击*/
 
-.nav_mid_left a:link, .nav_mid_left a:visited {
+.nav_mid_left a:link,
+.nav_mid_left a:visited {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
 }
 
-.nav_mid_left a:hover, .nav_mid_left a:active {
+.nav_mid_left a:hover,
+.nav_mid_left a:active {
     text-decoration: none;
     color: #ff0;
     font-size: 16px;
@@ -159,13 +166,11 @@ active 鼠标点击*/
 .news {
     width: 340px;
     border: 1px solid #e8e8e8;
-    background-color: pink;
 }
 
 .course {
     width: 410px;
     border: 1px solid #e8e8e8;
-    background-color: #900;
     margin: 0 7px;
 }
 
@@ -174,7 +179,78 @@ active 鼠标点击*/
     background-color: #ff0;
 }
 
-.news, .course, .sidebar {
+.news,
+.course,
+.sidebar {
     height: 250px;
     float: left;
+}
+
+.title {
+    height: 35px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.title_left {
+    width: 70%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #778866;
+    float: left;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.title_right {
+    width: 20%;
+    float: right;
+    line-height: 35px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.title_right a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.pic_news {
+    height: 80px;
+    margin-top: 8px;
+    line-height: 22px;
+}
+
+.pic_news img {
+    float: left;
+    margin-right: 5px;
+}
+
+.pic_news a {
+    color: #C00;
+    text-decoration: none;
+}
+
+.news_list {
+    margin-top: 20px;
+}
+
+.news_list li {
+    list-style-type: none;
+    background: url(../images/list.jpg) no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+}
+
+.news_list a:link,.news_list a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list a:hover,.news_list a:active {
+    text-decoration: none;
+    color: red;
+}
+
+.news_list span {
+    float: right;
 }
